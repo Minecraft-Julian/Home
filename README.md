@@ -40,6 +40,16 @@ npx http-server
 Ersetze `@minecraft-julian` in den folgenden Dateien mit deinem YouTube Kanal Handle:
 - `index.html` (mehrere Vorkommen)
 
+### YouTube Videos hinzufügen
+
+Um deine eigenen Videos einzubinden:
+
+1. Öffne ein YouTube Video
+2. Klicke auf "Teilen" → "Einbetten"
+3. Kopiere die Video-ID aus der URL (z.B. `dQw4w9WgXcQ` aus `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)
+4. Ersetze `VIDEO_ID` in `index.html` mit deiner Video-ID
+5. Für mehrere Videos, dupliziere einfach den `<div class="youtube-embed">` Block
+
 ### Farben anpassen
 
 Bearbeite die CSS-Variablen in `styles.css`:
